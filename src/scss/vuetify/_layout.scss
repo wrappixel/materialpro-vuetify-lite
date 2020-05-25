@@ -1,0 +1,27 @@
+.mini-sidebar{
+    .logo-text{
+        display: none;
+    }
+}
+.v-application--is-ltr .v-list-item__icon:first-child{
+    margin-right:10px;
+}
+.v-navigation-drawer--mini-variant .v-list-item > *:first-child{
+    margin-right:0px;
+}
+
+.down-top-padding {
+    .row {
+        &:nth-child(2){
+            padding-top: 5px;
+        }
+    }
+    .col-sm-12.col-12 {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+}
+
+.rounded-circle {
+    border-radius: 100%;
+}
