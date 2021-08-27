@@ -55,7 +55,7 @@
 <h2>Resources</h2>
 <ul>
 <li>  
-  Live Demo: <a href="https://www.wrappixel.com/demos/free-admin-templates/materialpro-vuetify-free/main/" rel="nofollow">https://www.wrappixel.com/demos/free-admin-templates/materialpro-vuetify-free/main/</a>
+  Live Demo: <a href="https://demos.wrappixel.com/free-admin-templates/vuejs/materialpro-vuejs-free/main/" rel="nofollow">https://demos.wrappixel.com/free-admin-templates/vuejs/materialpro-vuejs-free/main/</a>
 </li>
 <li>
     Download Page: <a href="https://www.wrappixel.com/templates/materialpro-vuetify-admin-lite/" rel="nofollow">
@@ -84,7 +84,7 @@
 </a>
 <p>
    Checkout our premium version of Material Pro Vuetify Admin for lots more features and ready to use page templates.<br>
-   <a href="https://wrappixel.com/demos/vuejs-admin-templates/materialpro-vuetify-admin/main/dashboards/analytical">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/materialpro-vuetify-admin/">Download</a>
+   <a href="https://demos.wrappixel.com/premium-admin-templates/vuejs/materialpro-vuejs/main/dashboards/analytical">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/materialpro-vuetify-admin/">Download</a>
 </p>
 
 <!-- Useful Links of Template -->
