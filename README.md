@@ -1,7 +1,7 @@
 <!-- # materialpro-vuetify-lite --->
 <!-- Heading of Template -->
 <h1>
-  <a href="https://www.wrappixel.com/demos/free-admin-templates/materialpro-vuetify-free/main">Material Pro Vuetify Admin Free</a>
+  <a href="https://demos.wrappixel.com/free-admin-templates/vuejs/materialpro-vuejs-free/landingpage/index.html">Material Pro Vuetify Admin Free</a>
 </h1>
 
 <!-- Main image of Template -->
