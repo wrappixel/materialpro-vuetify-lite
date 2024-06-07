@@ -23,7 +23,7 @@ MaterialPro Vuetify Admin Dashboard
     <a href="https://materialpro-vue-free.netlify.app/">Live Preview</a>
   </td>
   <td>
-  <a href="https://demos.wrappixel.com/free-admin-templates/vuejs/materialpro-vuejs-free/landingpage/index.html">Live Preview</a>
+  <a href="https://materialpro-vue3-admin.vercel.app/dashboards/analytical">Live Preview</a>
   </td>
 </tr>
 <tr>
@@ -31,7 +31,7 @@ MaterialPro Vuetify Admin Dashboard
       <a href="https://www.wrappixel.com/templates/materialpro-vuetify-admin-lite/">Download Now</a>
   </td>
   <td>
-    <a href="https://www.wrappixel.com/templates/materialpro-vuetify-admin/">Purchase Now</a>
+    <a href="https://www.wrappixel.com/templates/materialpro-vuetify-admin/?ref=33">Purchase Now</a>
   </td>
 </tr>
 <tr>
@@ -135,12 +135,12 @@ MaterialPro Vuetify Admin Dashboard
 
 # Upgrade to Premium version
 
-<a target="_blank" href="https://www.wrappixel.com/templates/materialpro-vuetify-admin/">
-  <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/05/materialpro-vuejs-dashboard-template-20.jpg" alt="">
+<a target="_blank" href="https://www.wrappixel.com/templates/materialpro-vuetify-admin/?ref=33">
+  <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/materialpro-vuetify-admin-wpn.jpg" alt="">
 </a>
 <p>
   Checkout our premium version of MaterialPro Vue3 Dashboard Template for lots more features and ready to use page templates.<br>
-  <a href="https://demos.wrappixel.com/free-admin-templates/vuejs/materialpro-vuejs-free/landingpage/index.html">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/materialpro-vuetify-admin/">Download</a>
+  <a href="https://materialpro-vue3-admin.vercel.app/dashboards/analytical">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/materialpro-vuetify-admin/?ref=33">Download</a>
 </p>
 
 <!-- Versions of Template -->
@@ -148,7 +148,7 @@ MaterialPro Vuetify Admin Dashboard
 <table>
 <thead>
 <tr>
-<th>Bootstrap</th>
+<th>Vue</th>
 <th>Angular</th>
 <th>Next Js</th>
 <th>Nuxt Js</th>
@@ -157,23 +157,23 @@ MaterialPro Vuetify Admin Dashboard
 <tbody>
 <tr>
 <td>
-  <a href="https://www.wrappixel.com/templates/materialpro/" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/materialpro-bootstrap-admin-y.jpg" alt="" style="max-width:150px;">
+  <a href="https://www.wrappixel.com/templates/materialpro-vuetify-admin/?ref=33" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/materialpro-vuetify-admin-wpn.jpg" alt="" style="max-width:150px;">
   </a>
 </td>
 <td>
-  <a href="https://www.wrappixel.com/templates/materialpro-angular-dashboard/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/materialpro-angular-admin-y.jpg" alt="" style="max-width:150px;">
+  <a href="https://www.wrappixel.com/templates/materialpro-angular-dashboard/?ref=33" rel="nofollow" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/materialpro-angular-admin-wpn.jpg" alt="" style="max-width:150px;">
   </a>
 </td>
 <td>
-  <a href="https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/2023/07/materialpro-nextjs.jpg" alt="" style="max-width:150px;">
+  <a href="https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/?ref=33" rel="nofollow" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/materialpro-next-js-admin-wpn1.jpg" alt="" style="max-width:150px;">
   </a>
 </td>
 <td>
-  <a href="https://www.wrappixel.com/templates/materialpro-nuxtjs/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2022/07/materialpro-nuxtjs.jpg" alt="" style="max-width:150px;">
+  <a href="https://www.wrappixel.com/templates/materialpro-nuxtjs/?ref=33" rel="nofollow" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/materialpro-nuxtjs-admin-wpn.jpg" alt="" style="max-width:150px;">
   </a>
 </td>
 </td>
@@ -192,7 +192,7 @@ MaterialPro Vuetify Admin Dashboard
 - <p><a href="https://www.wrappixel.com/templates/materialpro/">Bootstrap Themes</a> from Wrappixel</p>
 - <p><a href="https://www.wrappixel.com/templates/materialpro-lite/">Free Bootstrap Admin Templates</a> from Wrappixel</p>
 - <p><a href="https://www.wrappixel.com/templates/materialpro-react-redux-admin/">React Bootstrap Template</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/materialpro-vuetify-admin/">Vuejs Templates</a> from Wrappixel</p>
+- <p><a href="https://www.wrappixel.com/templates/materialpro-vuetify-admin/?ref=33">Vuejs Templates</a> from Wrappixel</p>
 
 
 <!-- Licensing of Template -->
