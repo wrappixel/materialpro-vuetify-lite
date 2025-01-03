@@ -198,12 +198,12 @@ MaterialPro Vuetify Admin Dashboard
 
 <!-- Licensing of Template -->
 # Licensing
-- <p>Copyright 2024 Wrappixel <a href="https://www.wrappixel.com/">https://wrappixel.com/</a></p>
+- <p> Copyright 2025 <a href="https://www.wrappixel.com/"> Wrappixel </a></p>
 - <p>Licensed under MIT <a href="https://www.wrappixel.com/license/">https://wrappixel.com/license/</a></p>
 
 
 <!-- Social Media of wrappixel -->
-<h3 align="left">Admin Templates Integration 🔗 with Famous Frameworks 🖥️ </h3>
+<h2 align="left">Vuetify Admin Templates Integration 🔗 with Famous Frameworks 🖥️ </h2>
 <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: left;">
 <a href="https://www.wrappixel.com/templates/category/bootstrap-templates/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="32" alt="Bootstrap 5 templates" style="margin-right: 8px"> </a> <a href="https://www.wrappixel.com/templates/category/angular-templates/"><img src="https://skillicons.dev/icons?i=angular" height="32" alt="Angular" style="margin-right: 8px">
 <a href="https://www.wrappixel.com/templates/category/react-templates/">
