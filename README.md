@@ -1,6 +1,5 @@
 
 # <a href="https://materialpro-vue-free.netlify.app/">MaterialPro Vuetify Free</a>
-MaterialPro Vuetify Admin Dashboard
 
 <!-- Main image of Template -->
 <a target="_blank" href="https://www.wrappixel.com/templates/materialpro-vuetify-admin-lite/">
