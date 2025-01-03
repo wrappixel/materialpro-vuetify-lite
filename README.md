@@ -182,24 +182,10 @@ MaterialPro Vuetify Admin Dashboard
 </tbody>
 </table>
 
-
-
-
-<!-- Useful Links of Template -->
-# Useful Links for Vuetify Templates
-- <p><a href="https://www.wrappixel.com/templates/category/vuetify-templates/">Vuetify Templates</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/category/vuejs-templates/">Vue Templates</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/category/nuxt-templates/">Nuxt Templates</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/category/admin-dashboard-templates/">Admin Theme</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/category/bootstrap-templates/">Bootstrap Themes</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/category/react-bootstrap-templates/">React Bootstrap Templates</a> from Wrappixel</p>
-
-
-
 <!-- Licensing of Template -->
 # Licensing
-- <p> Copyright 2025 <a href="https://www.wrappixel.com/"> Wrappixel </a></p>
-- <p>Licensed under MIT <a href="https://www.wrappixel.com/license/">https://wrappixel.com/license/</a></p>
+- <p> Copyright 2025 <a href="https://www.wrappixel.com/">Wrappixel</a></p>
+- <p> <a href="https://www.wrappixel.com/license/"> Licensed under MIT</a></p>
 
 
 <!-- Social Media of wrappixel -->
@@ -223,5 +209,14 @@ MaterialPro Vuetify Admin Dashboard
 
 <h3 align="left">Stay Tuned with Wrappixel for Admin Panel Updates:</h3>
 <p align="left"><a href="https://www.linkedin.com/company/wrappixel" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="28" style="margin-right: 4px"></a> <a href="https://www.behance.net/wrappixel" target="_blank"><img src="https://img.shields.io/badge/-Behance-blue?style=for-the-badge&logo=behance&logoColor=white" height="28" style="margin-right: 4px"></a> <a href="https://www.facebook.com/wrappixel" target="_blank"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="28" style="margin-right: 4px"></a> <a href="https://github.com/wrappixel" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="28" style="margin-right: 4px"></a> <a href="https://www.instagram.com/wrappixel.official" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="28" style="margin-right: 4px"></a> <a href="https://www.pinterest.com/wrappixel_templates" target="_blank"><img src="https://img.shields.io/badge/Pinterest-%23E60023.svg?style=for-the-badge&&logo=Pinterest&logoColor=white" height="28" style="margin-right: 4px"></a> <a href="https://www.youtube.com/@wrappixel" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" height="28" style="margin-right: 4px"></a> <a href="https://twitter.com/wrappixel" target="_blank"><img src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=X&logoColor=white" height="28" style="margin-right: 4px"></a> <a href="https://dribbble.com/wrappixel" target="_blank"><img src="https://img.shields.io/badge/Dribbble-EA4C89?style=for-the-badge&logo=dribbble&logoColor=white" height="28" style="margin-right: 4px"></a> <a href="https://www.reddit.com/search/?q=wrappixel" target="_blank"><img src="https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white" height="28" style="margin-right: 4px"></a></p>
+
+<!-- Useful Links of Template -->
+# Useful Links for Vuetify Templates
+- <p><a href="https://www.wrappixel.com/templates/category/vuetify-templates/">Vuetify Templates</a> from Wrappixel</p>
+- <p><a href="https://www.wrappixel.com/templates/category/vuejs-templates/">Vue Templates</a> from Wrappixel</p>
+- <p><a href="https://www.wrappixel.com/templates/category/nuxt-templates/">Nuxt Templates</a> from Wrappixel</p>
+- <p><a href="https://www.wrappixel.com/templates/category/admin-dashboard-templates/">Admin Theme</a> from Wrappixel</p>
+- <p><a href="https://www.wrappixel.com/templates/category/bootstrap-templates/">Bootstrap Themes</a> from Wrappixel</p>
+- <p><a href="https://www.wrappixel.com/templates/category/react-bootstrap-templates/">React Bootstrap Templates</a> from Wrappixel</p>
 
 
