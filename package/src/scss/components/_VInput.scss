@@ -32,3 +32,16 @@
 .shadow-none .v-field--variant-solo {
     box-shadow: none !important;
 }
+
+.v-chip.v-chip--size-small {
+    --v-chip-size: 45px;
+    --v-chip-height: 24px;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+.v-field__outline {
+    color: rgb(var(--v-theme-inputBorder)) !important;
+    border-radius: 7px !important;
+    --v-field-border-opacity: 1 !important;
+}

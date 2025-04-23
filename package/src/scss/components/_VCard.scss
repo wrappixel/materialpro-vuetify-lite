@@ -19,6 +19,7 @@
 .v-card {
     width: 100%;
     overflow: visible;
+    border-radius:10px;
     .color-inherits {
         color: inherit;
     }
@@ -29,6 +30,12 @@
     }
     .v-timeline-divider__before,.v-timeline-divider__after {
         background: rgba(var(--v-border-color), 1);
+    }
+    .v-card-text{
+        padding: 24px 24px;
+    }
+    .v-card-item{
+        padding: 24px 24px;
     }
 }
 
@@ -44,4 +51,20 @@
     .v-card-item{
         padding: 0.625rem 1rem;
     }
+}
+
+.card-title{
+    font-size: 18px;
+    font-weight: 500;
+    color:rgb(var(--v-theme-textPrimary));
+}
+.card-subtitle{
+    font-size: 14px;
+    font-weight: 400;
+    color:rgb(var(--v-theme-textSecondary));
+}
+.dark-card-title{
+    font-size: 18px;
+    font-weight: 500;
+    color:rgb(var(--v-theme-textPrimary));
 }

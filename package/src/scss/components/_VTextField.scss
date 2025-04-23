@@ -2,11 +2,10 @@
   font-size: 0.875rem;
 }
 .v-field__outline {
-  color: rgb(var(--v-theme-inputBorder));
+  color: rgb(var(--v-theme-inputBorder),0.5);
 }
-.input {
+.inputWithbg {
   .v-field--variant-outlined {
     background-color: rgba(0, 0, 0, 0.025);
   }
 }
-

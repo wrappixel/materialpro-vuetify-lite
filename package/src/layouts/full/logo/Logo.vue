@@ -1,10 +1,11 @@
-<script setup lang="ts">
-import { RouterLink } from "vue-router";
+<script setup>
+import Logo from "@/assets/images/logos/logo.svg";
+
 </script>
 <template>
-    <div class="logo">
-      <RouterLink to="/" class="d-flex">
-        <img src="@/assets/images/logos/logolight.svg"/>
+  
+      <RouterLink to="/" class="lh-0">
+          <img :src="Logo" alt="logo" />
       </RouterLink>
-    </div>
-  </template>
+ 
+</template>

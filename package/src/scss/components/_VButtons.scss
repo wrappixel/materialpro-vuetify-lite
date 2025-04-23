@@ -1,14 +1,62 @@
-.v-btn-group .v-btn {
-    height: inherit !important;
+//
+// Light Buttons
+//
+
+.v-btn {
+  min-width: auto !important;
+  height: calc(var(--v-btn-height) + 4px) !important ;
+  &.bg-lightprimary {
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: rgb(var(--v-theme-primary)) !important;
+      color: $white !important;
+    }
+  }
+  &.bg-lightsecondary {
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: rgb(var(--v-theme-secondary)) !important;
+      color: $white !important;
+    }
+  }
+  &.text-facebook {
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: rgb(var(--v-theme-facebook)) !important;
+      color: $white !important;
+    }
+  }
+  &.text-twitter {
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: rgb(var(--v-theme-twitter)) !important;
+      color: $white !important;
+    }
+  }
+  &.text-linkedin {
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: rgb(var(--v-theme-linkedin)) !important;
+      color: $white !important;
+    }
+  }
 }
 
-.v-btn-group {
-    border-color: rgb(var(--v-theme-borderColor)) !important;
+.v-btn {
+  text-transform: capitalize;
+  letter-spacing: $btn-letter-spacing;
+  border-radius: 7px;
 }
-.v-btn{
-    text-transform: capitalize;
-    letter-spacing: 0;
+.v-btn--icon.v-btn--density-default {
+  width: calc(var(--v-btn-height) + 6px);
+  height: calc(var(--v-btn-height) + 6px);
 }
-.v-btn--elevated:hover{
-    box-shadow: none;
+
+.v-btn-group .v-btn {
+  height: inherit !important;
 }

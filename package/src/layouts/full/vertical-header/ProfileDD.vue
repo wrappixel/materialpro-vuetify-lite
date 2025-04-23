@@ -1,37 +1,43 @@
-<script setup>
-import { ref} from 'vue';
-const userprofile = ref([
-  {
-    title: "My Profile",
-    desc: "Account Settings",
-  },
-  {
-    title: "My Inbox",
-    desc: "Messages & Emails",
-  },
-  {
-    title: "My Tasks",
-    desc: "To-do and Daily Tasks",
-  },
-]);
+<script setup lang="ts">
+import { UserIcon, MailIcon, ListCheckIcon } from 'vue-tabler-icons';
 </script>
 
 <template>
-  <v-menu :close-on-content-click="false">
-    <template v-slot:activator="{ props }">
-      <v-btn class="custom-hover-primary" variant="text" v-bind="props" icon>
-        <v-avatar size="35">
-          <img src="@/assets/images/profile/user2.jpg" width="35" alt="Julia" />
-        </v-avatar>
-      </v-btn>
-    </template>
-    <v-sheet rounded="md" width="250" elevation="10">
-      <v-list class="pa-4" elevation="10" rounded="md">
-        <v-list-item class="py-2  mb-2" v-for="(item, i) in userprofile" :key="i" :value="item" :title="item.title"
-          :subtitle="item.desc" rounded="md">
-        </v-list-item>
-        <v-btn block color="primary" class="mt-4 py-4">Logout</v-btn>
-      </v-list>
-    </v-sheet>
-  </v-menu>
+    <!-- ---------------------------------------------- -->
+    <!-- notifications DD -->
+    <!-- ---------------------------------------------- -->
+    <v-menu :close-on-content-click="false">
+        <template v-slot:activator="{ props }">
+            <v-btn class=" custom-hover-primary" rounded="pill" variant="text" v-bind="props" icon>
+                <v-avatar size="35">
+                    <img src="@/assets/images/users/user-1.jpg" height="35" alt="user" />
+                </v-avatar>
+            </v-btn>
+        </template>
+        <v-sheet rounded="md" width="200" elevation="10" class="mt-2">
+            <v-list class="py-0" lines="one" density="compact">
+                <v-list-item value="item1" color="primary" >
+                    <template v-slot:prepend>
+                        <UserIcon stroke-width="1.5" size="20"/>
+                    </template>
+                    <v-list-item-title class="pl-4 text-body-1">My Profile</v-list-item-title>
+                </v-list-item>
+                <v-list-item value="item2" color="primary">
+                    <template v-slot:prepend>
+                        <MailIcon stroke-width="1.5" size="20"/>
+                    </template>
+                    <v-list-item-title  class="pl-4 text-body-1">My Account</v-list-item-title>
+                </v-list-item>
+                <v-list-item value="item3" color="primary"> 
+                    <template v-slot:prepend>
+                        <ListCheckIcon stroke-width="1.5"  size="20"/>
+                    </template>
+                    <v-list-item-title class="pl-4 text-body-1">My Task</v-list-item-title>
+                </v-list-item>
+            </v-list>
+            <div class="pt-4 pb-4 px-5 text-center">
+                <v-btn to="/auth/login" color="primary" variant="outlined" block>Logout</v-btn>
+            </div>
+        </v-sheet>
+    </v-menu>
 </template>

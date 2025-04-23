@@ -1,81 +1,100 @@
 <script setup lang="ts">
-import { ref, shallowRef, onMounted } from 'vue';
-import { RouterView } from 'vue-router';
-import { useDisplay } from "vuetify";
+import { onMounted, ref, shallowRef, watch } from 'vue';
 import sidebarItems from './vertical-sidebar/sidebarItem';
 import NavGroup from './vertical-sidebar/NavGroup/index.vue';
 import NavItem from './vertical-sidebar/NavItem/index.vue';
+import { Icon } from '@iconify/vue';
 import Logo from './logo/Logo.vue';
-// Icon Imports
-import ProfileDD from './vertical-header/ProfileDD.vue'
-import BuyNow from './vertical-sidebar/Buynow/index.vue'
-import { PowerIcon } from 'vue-tabler-icons';
-const drawer = ref(undefined || true);
-const innerW = window.innerWidth;
-const { mdAndUp, mdAndDown } = useDisplay();
-onMounted(() => {
-    if (innerW < 950) {
-        drawer.value = !drawer.value;
-    }
-});
+
+import ProfileDD from './vertical-header/ProfileDD.vue';
+import NavCollapse from './vertical-sidebar/NavCollapse/NavCollapse.vue';
+import SidebarProfile from './vertical-header/SidebarProfile.vue';
+import ExtraBox from './vertical-header/ExtraBox.vue';
+import Topbar from './Topbar.vue';
+import { useDisplay } from 'vuetify/lib/framework.mjs';
 const sidebarMenu = shallowRef(sidebarItems);
 const sDrawer = ref(true);
 
-</script>
+const { mdAndDown } = useDisplay();
+onMounted(() => {
+  sDrawer.value = !mdAndDown.value; // hide on mobile, show on desktop
+});
+watch(mdAndDown, (val) => {
+  sDrawer.value = !val;
+});
+</script>   
 
 <template>
-    <v-app-bar elevation="10" color="primary">
-        <div class="pe-5">
-            <div class="">
-                <Logo />
-            </div>
-        </div>
-        <v-app-bar-nav-icon class="" @click="sDrawer = !sDrawer" />
-        <v-spacer />
-        <ProfileDD />
-    </v-app-bar>
-    <v-main>
-        <!-- ---------------------------------------------- -->
-        <!---Sidebar -->
-        <!-- ---------------------------------------------- -->
-        <v-navigation-drawer left :permanent="mdAndUp" class="leftSidebar bg-muted border-right-0" elevation="10" app
-            :temporary="mdAndDown" v-model="sDrawer" expand-on-hover>
-            <perfect-scrollbar class="scrollnavbar">
-                <div class="profile">
-                <div class="profile-pic profile-pic py-7 px-3">
-                    <v-avatar size="45">
-                        <img src="@/assets/images/profile/user2.jpg" width="50" alt="Julia" />
-                    </v-avatar>
+    <Topbar />
+ 
+        <!------Header-------->
+        <v-app-bar elevation="0" height="65" class="top-header bg-primary px-6">
+            <div class="d-flex align-center justify-space-between w-100">
+                <div class="d-flex ga-lg-16 ga-3 align-center">
+                    <Logo class="d-sm-flex d-none" />
+                    <v-btn class="hidden-lg-and-up" @click="sDrawer = !sDrawer" rounded="pill" height="40" width="40">
+                        <Icon icon="solar:list-bold" height="22" />
+                    </v-btn>
+
+                    <v-btn rounded="pill" class="ms-lg-6 pa-0 " height="40" width="40">
+                        <Icon icon="solar:bell-linear" height="20" width="20" />
+                    </v-btn>
                 </div>
-                <div class="profile-name d-flex align-center px-3">
-                    <h5 class="text-surface font-weight-medium">Julia Roberts</h5>
-                    <div class="ml-auto profile-logout">
-                        <v-btn variant="text" icon rounded="md" color="surface" >
-                            <PowerIcon size="22"/>
-                        </v-btn>
-                    </div>
-                </div>
-            </div>
-                <v-list class="py-5 px-4 bg-muted" density="compact">
-                    <!---Menu Loop -->
-                    <template v-for="(item, i) in sidebarMenu">
-                        <!---Item Sub Header -->
-                        <NavGroup :item="item" v-if="item.header" :key="item.title" />
-                        <!---Single Item-->
-                        <NavItem :item="item" v-else class="leftPadding" />
-                        <!---End Single Item-->
-                    </template>
-                    <!-- <Moreoption/> -->
-                </v-list>
                 <div>
-                    <BuyNow/>
+                    <!-- Upgrade button -->
+                    <v-btn
+                        class="mr-2 bg-success" rounded="pill"
+                        href="https://www.wrappixel.com/templates/materialpro-vuetify-admin/?ref=376#demos"
+                        target="_blank"
+                        >Check Pro Template</v-btn
+                    >
+                    <!-- User Profile -->
+                    <ProfileDD />
                 </div>
-            </perfect-scrollbar>
-        </v-navigation-drawer>
-        <v-container fluid class="page-wrapper">
-            <div class="maxWidth">
-                <RouterView />
             </div>
-        </v-container>
-    </v-main>
+        </v-app-bar>
+        <v-main>
+            <v-navigation-drawer left elevation="0" app class="leftSidebar"  :width="270" v-model="sDrawer">
+                <!-- ---------------------------------------------- -->
+                <!---Navigation -->
+                <!-- ---------------------------------------------- -->
+
+                <perfect-scrollbar class="scrollnavbar">
+                    <div class="profile">
+                        <div class="profile-img py-10 px-3">
+                            <v-avatar size="50">
+                                <img src="@/assets/images/users/user-1.jpg" width="50" alt="Julia" />
+                            </v-avatar>
+                        </div>
+                        <div class="profile-name d-flex align-center px-3">
+                            <div class="profile-logout w-100">
+                                <SidebarProfile />
+                            </div>
+                        </div>
+                    </div>
+                    <v-list class="px-4 py-4">
+                        <!---Menu Loop -->
+                        <template v-for="(item, i) in sidebarMenu">
+                            <!---Item Sub Header -->
+                            <NavGroup :item="item" v-if="item.header" :key="item.title" />
+
+                            <NavCollapse class="leftPadding" :item="item" :level="0" v-else-if="item.children" />
+                            <!---Single Item-->
+                            <NavItem :item="item" v-else class="leftPadding" />
+                            <!---End Single Item-->
+                        </template>
+                    </v-list>
+
+                    <div class="">
+                        <ExtraBox />
+                    </div>
+                </perfect-scrollbar>
+            </v-navigation-drawer>
+            <v-container class="page-wrapper">
+                <div class="maxWidth">
+                    <RouterView />
+                </div>
+            </v-container>
+        </v-main>
+  
 </template>

@@ -15,44 +15,22 @@ html {
         color: $white !important;
     }
 }
-
 .border,
 .v-divider {
     border-color: rgba(var(--v-border-color), 1) !important;
-    opacity: 1;
-}
-.avtar-border {
-    border: 2px solid rgb(var(--v-theme-surface)) !important;
 }
 
-
-.apexcharts-text tspan{
-    font-family:  'Poppins', sans-serif !important;
+.z-1{
+    z-index: 1 !important;
 }
-
-
-.v-table .v-table__wrapper>table>tbody>tr:not(:last-child)>td,
-.v-table .v-table__wrapper>table>tbody>tr:not(:last-child)>th,
-.v-table .v-table__wrapper>table>thead>tr:last-child>th {
-    border-bottom: thin solid rgba(var(--v-border-color), 1) !important;
+.lh-0{
+    line-height: 0;
 }
-
-.v-table .v-table__wrapper>table>thead>tr>th {
-    color: rgba(var(--v-theme-on-surface), var(--v-high-emphasis-opacity));
+.lh-normal{
+    line-height: normal;
 }
-
-.v-table>.v-table__wrapper>table>tbody>tr>th,
-.v-table>.v-table__wrapper>table>thead>tr>th,
-.v-table>.v-table__wrapper>table>tfoot>tr>th {
-    font-weight: 600;
-}
-.v-table .v-table__wrapper > table > thead > tr > th{
-    font-size: 16px;
-}
-
-.v-table .v-table__wrapper > table > tbody > tr > td{
-    font-size: 14px;
-}
-.gap-3{
-    gap:10px;
+.custom-text-primary{
+    &:hover{
+       color: rgba(var(--v-theme-primary)) !important; 
+    }
 }

@@ -2,7 +2,9 @@ import { createVuetify } from 'vuetify';
 import '@mdi/font/css/materialdesignicons.css';
 import * as components from 'vuetify/components';
 import * as directives from 'vuetify/directives';
-import { BLUE_THEME } from '@/theme/LightTheme';
+import { BLUE_THEME} from '@/theme/LightTheme';
+
+
 export default createVuetify({
     components,
     directives,
@@ -14,9 +16,6 @@ export default createVuetify({
         }
     },
     defaults: {
-        VCard: {
-            rounded: "md",
-        },
         VTextField: {
             variant: 'outlined',
             density: 'comfortable',
@@ -37,6 +36,6 @@ export default createVuetify({
         },
         VTooltip: {
             location: 'top'
-        }
+        },
     }
 });
